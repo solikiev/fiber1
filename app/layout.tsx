@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
+import PWARegister from '@/components/PWARegister';
 
 export const metadata: Metadata = {
   title: 'Fiber Tracker',
@@ -44,7 +45,10 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Fiber Tracker" />
       </head>
-      <body className="bg-gray-50">{children}</body>
+      <body className="bg-gray-50">
+        <PWARegister />
+        {children}
+      </body>
     </html>
   );
 }
