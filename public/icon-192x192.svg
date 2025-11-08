@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="192" height="192" fill="#10b981" rx="28.799999999999997"/>
+  
+  <!-- Wheat/grain stalks representing fiber -->
+  <g transform="translate(96, 96)">
+    <!-- Center stalk -->
+    <line x1="0" y1="28.799999999999997" x2="0" y2="-48" stroke="#ffffff" stroke-width="5.76" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-51.84" rx="11.52" ry="17.28" fill="#ffffff"/>
+    
+    <!-- Left stalk -->
+    <line x1="-23.04" y1="28.799999999999997" x2="-23.04" y2="-34.56" stroke="#ffffff" stroke-width="4.800000000000001" stroke-linecap="round"/>
+    <ellipse cx="-23.04" cy="-38.400000000000006" rx="9.600000000000001" ry="13.440000000000001" fill="#ffffff"/>
+    
+    <!-- Right stalk -->
+    <line x1="23.04" y1="28.799999999999997" x2="23.04" y2="-34.56" stroke="#ffffff" stroke-width="4.800000000000001" stroke-linecap="round"/>
+    <ellipse cx="23.04" cy="-38.400000000000006" rx="9.600000000000001" ry="13.440000000000001" fill="#ffffff"/>
+    
+    <!-- Additional grain details -->
+    <ellipse cx="-7.68" cy="-46.08" rx="5.76" ry="9.600000000000001" fill="#ffffff" opacity="0.8"/>
+    <ellipse cx="7.68" cy="-46.08" rx="5.76" ry="9.600000000000001" fill="#ffffff" opacity="0.8"/>
+  </g>
+  
+  <!-- "F" letter at bottom for Fiber -->
+  <text x="96" y="153.60000000000002" font-family="Arial, sans-serif" font-size="67.19999999999999" font-weight="bold" fill="#ffffff" text-anchor="middle">F</text>
+</svg>
